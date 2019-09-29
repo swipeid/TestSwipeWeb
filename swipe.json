@@ -1,0 +1,23 @@
+{
+   "apps":[
+      {
+         "appID":"io.carechain.TestSwipe"
+      }
+   ],
+   "requests":[
+      {
+         "attributes":[
+            "name",
+            "verified_email"
+         ],
+         "authentication":"claim"
+      },
+      {
+         "attributes":[
+            "name",
+            "verified_email"
+         ],
+         "authentication":"chip"
+      }
+   ]
+}
